@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7UPqRTvSUhumgssuaj8q0OAB0B8j9LOMAe8k5JEhuTs=",
+  "Hash": "e86iHQdAT8UOgQMOxKwPZrzM/0QOTmb4SuhgKRSppAY=",
   "Source": "Shopping",
   "BasePath": "_content/Shopping",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "9indeo8rxb",
-      "Integrity": "v9kZKz82bcS0Zoo33xv6okrSzSteJN/bCtGMaVxDcSw=",
+      "Fingerprint": "hf6cmsypia",
+      "Integrity": "cy4r4PEVfkeWaW8xsXm1lQ54ErTvPSYZGifvV1kVKjk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Shopping.styles.css"
@@ -52,8 +52,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "9indeo8rxb",
-      "Integrity": "v9kZKz82bcS0Zoo33xv6okrSzSteJN/bCtGMaVxDcSw=",
+      "Fingerprint": "hf6cmsypia",
+      "Integrity": "cy4r4PEVfkeWaW8xsXm1lQ54ErTvPSYZGifvV1kVKjk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Shopping.bundle.scp.css"
@@ -351,6 +351,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\1.jpg",
+      "SourceId": "Shopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\",
+      "BasePath": "_content/Shopping",
+      "RelativePath": "Images/1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ps17jbrgcd",
+      "Integrity": "J0zU+NTs9QfM/GTg1RbgQVEfqMkC8c7xRw5+vDuH01g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\2.jpg",
+      "SourceId": "Shopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\",
+      "BasePath": "_content/Shopping",
+      "RelativePath": "Images/2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jtn6e3totr",
+      "Integrity": "F0jfucy/v5YHMeMG8CXDg5gSEa0tPKiv0d/VIj/aIUE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\2.jpg"
     },
     {
       "Identity": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\gallery2.jpg",
@@ -3011,6 +3053,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/1.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J0zU+NTs9QfM/GTg1RbgQVEfqMkC8c7xRw5+vDuH01g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 06:50:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J0zU+NTs9QfM/GTg1RbgQVEfqMkC8c7xRw5+vDuH01g="
+        }
+      ]
+    },
+    {
+      "Route": "Images/1.ps17jbrgcd.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J0zU+NTs9QfM/GTg1RbgQVEfqMkC8c7xRw5+vDuH01g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 06:50:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ps17jbrgcd"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J0zU+NTs9QfM/GTg1RbgQVEfqMkC8c7xRw5+vDuH01g="
+        }
+      ]
+    },
+    {
+      "Route": "Images/2.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10603"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F0jfucy/v5YHMeMG8CXDg5gSEa0tPKiv0d/VIj/aIUE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 06:50:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F0jfucy/v5YHMeMG8CXDg5gSEa0tPKiv0d/VIj/aIUE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/2.jtn6e3totr.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10603"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F0jfucy/v5YHMeMG8CXDg5gSEa0tPKiv0d/VIj/aIUE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 27 May 2025 06:50:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jtn6e3totr"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F0jfucy/v5YHMeMG8CXDg5gSEa0tPKiv0d/VIj/aIUE="
         }
       ]
     },
@@ -8919,96 +9125,6 @@
       ]
     },
     {
-      "Route": "Shopping.9indeo8rxb.bundle.scp.css",
-      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Shopping.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1126"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"v9kZKz82bcS0Zoo33xv6okrSzSteJN/bCtGMaVxDcSw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 24 May 2025 13:49:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "9indeo8rxb"
-        },
-        {
-          "Name": "label",
-          "Value": "Shopping.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-v9kZKz82bcS0Zoo33xv6okrSzSteJN/bCtGMaVxDcSw="
-        }
-      ]
-    },
-    {
-      "Route": "Shopping.9indeo8rxb.styles.css",
-      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Shopping.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1126"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"v9kZKz82bcS0Zoo33xv6okrSzSteJN/bCtGMaVxDcSw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 24 May 2025 13:49:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "9indeo8rxb"
-        },
-        {
-          "Name": "label",
-          "Value": "Shopping.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-v9kZKz82bcS0Zoo33xv6okrSzSteJN/bCtGMaVxDcSw="
-        }
-      ]
-    },
-    {
       "Route": "Shopping.bundle.scp.css",
       "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Shopping.bundle.scp.css",
       "Selectors": [],
@@ -9019,7 +9135,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1126"
+          "Value": "2264"
         },
         {
           "Name": "Content-Type",
@@ -9027,11 +9143,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"v9kZKz82bcS0Zoo33xv6okrSzSteJN/bCtGMaVxDcSw=\""
+          "Value": "\"cy4r4PEVfkeWaW8xsXm1lQ54ErTvPSYZGifvV1kVKjk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 24 May 2025 13:49:28 GMT"
+          "Value": "Wed, 28 May 2025 15:42:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9041,7 +9157,97 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-v9kZKz82bcS0Zoo33xv6okrSzSteJN/bCtGMaVxDcSw="
+          "Value": "sha256-cy4r4PEVfkeWaW8xsXm1lQ54ErTvPSYZGifvV1kVKjk="
+        }
+      ]
+    },
+    {
+      "Route": "Shopping.hf6cmsypia.bundle.scp.css",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Shopping.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2264"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cy4r4PEVfkeWaW8xsXm1lQ54ErTvPSYZGifvV1kVKjk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 15:42:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hf6cmsypia"
+        },
+        {
+          "Name": "label",
+          "Value": "Shopping.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cy4r4PEVfkeWaW8xsXm1lQ54ErTvPSYZGifvV1kVKjk="
+        }
+      ]
+    },
+    {
+      "Route": "Shopping.hf6cmsypia.styles.css",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Shopping.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2264"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cy4r4PEVfkeWaW8xsXm1lQ54ErTvPSYZGifvV1kVKjk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 15:42:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hf6cmsypia"
+        },
+        {
+          "Name": "label",
+          "Value": "Shopping.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cy4r4PEVfkeWaW8xsXm1lQ54ErTvPSYZGifvV1kVKjk="
         }
       ]
     },
@@ -9056,7 +9262,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1126"
+          "Value": "2264"
         },
         {
           "Name": "Content-Type",
@@ -9064,11 +9270,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"v9kZKz82bcS0Zoo33xv6okrSzSteJN/bCtGMaVxDcSw=\""
+          "Value": "\"cy4r4PEVfkeWaW8xsXm1lQ54ErTvPSYZGifvV1kVKjk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 24 May 2025 13:49:28 GMT"
+          "Value": "Wed, 28 May 2025 15:42:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9078,7 +9284,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-v9kZKz82bcS0Zoo33xv6okrSzSteJN/bCtGMaVxDcSw="
+          "Value": "sha256-cy4r4PEVfkeWaW8xsXm1lQ54ErTvPSYZGifvV1kVKjk="
         }
       ]
     }

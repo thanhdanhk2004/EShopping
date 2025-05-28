@@ -12,6 +12,8 @@ wwwroot\css\price-range.css
 wwwroot\css\responsive.css
 wwwroot\checkout.html
 wwwroot\favicon.ico
+wwwroot\Images\1.jpg
+wwwroot\Images\2.jpg
 wwwroot\Images\gallery2.jpg
 wwwroot\index.html
 wwwroot\js\bootstrap.min.js

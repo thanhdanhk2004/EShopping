@@ -14,6 +14,6 @@ namespace Shopping.Reponitory
         public virtual DbSet<CategoryModel> Categories { get; set; }
         public virtual DbSet<ProductModel> Products { get; set; }
 
-        protected override 
+
     }
 }

@@ -2,11 +2,19 @@
   "Files": [
     {
       "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Shopping.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Shopping.9indeo8rxb.bundle.scp.css"
+      "PackagePath": "staticwebassets\\Shopping.hf6cmsypia.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\404.html",
       "PackagePath": "staticwebassets\\404.html"
+    },
+    {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\1.jpg",
+      "PackagePath": "staticwebassets\\Images\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\2.jpg",
+      "PackagePath": "staticwebassets\\Images\\2.jpg"
     },
     {
       "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\gallery2.jpg",

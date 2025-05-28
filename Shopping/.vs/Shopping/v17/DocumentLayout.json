@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9CE2C41A-4F59-4ECC-B064-356409D36FFC}|Shopping\\Shopping.csproj|c:\\users\\add\\pictures\\hocchuyennganh\\eshopping\\shopping\\shopping\\reponitory\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CE2C41A-4F59-4ECC-B064-356409D36FFC}|Shopping\\Shopping.csproj|solutionrelative:shopping\\reponitory\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9CE2C41A-4F59-4ECC-B064-356409D36FFC}|Shopping\\Shopping.csproj|c:\\users\\add\\pictures\\hocchuyennganh\\eshopping\\shopping\\shopping\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CE2C41A-4F59-4ECC-B064-356409D36FFC}|Shopping\\Shopping.csproj|solutionrelative:shopping\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CE2C41A-4F59-4ECC-B064-356409D36FFC}|Shopping\\Shopping.csproj|c:\\users\\add\\pictures\\hocchuyennganh\\eshopping\\shopping\\shopping\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CE2C41A-4F59-4ECC-B064-356409D36FFC}|Shopping\\Shopping.csproj|solutionrelative:shopping\\models\\productmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9CE2C41A-4F59-4ECC-B064-356409D36FFC}|Shopping\\Shopping.csproj|c:\\users\\add\\pictures\\hocchuyennganh\\eshopping\\shopping\\shopping\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9CE2C41A-4F59-4ECC-B064-356409D36FFC}|Shopping\\Shopping.csproj|solutionrelative:shopping\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CE2C41A-4F59-4ECC-B064-356409D36FFC}|Shopping\\Shopping.csproj|c:\\users\\add\\pictures\\hocchuyennganh\\eshopping\\shopping\\shopping\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9CE2C41A-4F59-4ECC-B064-356409D36FFC}|Shopping\\Shopping.csproj|solutionrelative:shopping\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9CE2C41A-4F59-4ECC-B064-356409D36FFC}|Shopping\\Shopping.csproj|c:\\users\\add\\pictures\\hocchuyennganh\\eshopping\\shopping\\shopping\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CE2C41A-4F59-4ECC-B064-356409D36FFC}|Shopping\\Shopping.csproj|solutionrelative:shopping\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,40 +39,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Context.cs",
-              "DocumentMoniker": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\Reponitory\\Context.cs",
-              "RelativeDocumentMoniker": "Shopping\\Reponitory\\Context.cs",
-              "ToolTip": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\Reponitory\\Context.cs",
-              "RelativeToolTip": "Shopping\\Reponitory\\Context.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:08:12.941Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductModel.cs",
-              "DocumentMoniker": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\Models\\ProductModel.cs",
-              "RelativeDocumentMoniker": "Shopping\\Models\\ProductModel.cs",
-              "ToolTip": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\Models\\ProductModel.cs",
-              "RelativeToolTip": "Shopping\\Models\\ProductModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAiwA0AAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T14:57:44.305Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Shopping\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Shopping\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T15:53:25.702Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Shopping\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Shopping\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T15:51:40.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Shopping\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Shopping\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAAAHgAAAA3AAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Shopping\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Shopping\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-26T14:18:37.09Z",
+              "WhenOpened": "2025-05-28T15:44:43.27Z",
               "EditorCaption": ""
             }
           ]

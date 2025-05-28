@@ -13,6 +13,7 @@ namespace Shopping.Models
         public string Slug {  get; set; }
         [Required, MinLength(4, ErrorMessage = "Yeu cau nhap gia san pham")]
         public decimal Price { get; set; }
+        public string Image {  get; set; }
         public int BrandId {  get; set; }
         public int CategoryId {  get; set; }
         public BrandModel Brand { get; set; }
