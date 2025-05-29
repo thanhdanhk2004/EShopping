@@ -1,5 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
+
+using Shopping.Reponitory.Validation;
 namespace Shopping.Models
 {
     public class ProductModel
@@ -18,5 +21,9 @@ namespace Shopping.Models
         public int CategoryId {  get; set; }
         public BrandModel Brand { get; set; }
         public CategoryModel Category { get; set; }
+
+        [NotMapped]
+        [FileExtention]
+        public IFormFile ImageUpload { get; set; }
     }
 }
