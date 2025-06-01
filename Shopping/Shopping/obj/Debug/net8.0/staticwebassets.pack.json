@@ -17,8 +17,28 @@
       "PackagePath": "staticwebassets\\Images\\2.jpg"
     },
     {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\3.jpg",
+      "PackagePath": "staticwebassets\\Images\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\M2 Macbook Air.jpg",
+      "PackagePath": "staticwebassets\\Images\\M2 Macbook Air.jpg"
+    },
+    {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\Macbook Pro.jpg",
+      "PackagePath": "staticwebassets\\Images\\Macbook Pro.jpg"
+    },
+    {
       "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\gallery2.jpg",
       "PackagePath": "staticwebassets\\Images\\gallery2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\th.jpg",
+      "PackagePath": "staticwebassets\\Images\\th.jpg"
+    },
+    {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\backend\\js\\site.js",
+      "PackagePath": "staticwebassets\\backend\\js\\site.js"
     },
     {
       "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\blog-single.html",
@@ -343,6 +363,34 @@
     {
       "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\login.html",
       "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\018cd622-1fbf-4a42-8661-9bad5c2c312f_3.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\018cd622-1fbf-4a42-8661-9bad5c2c312f_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\15d0e1d9-14cb-42b4-a2f4-709deee18b0e_th.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\15d0e1d9-14cb-42b4-a2f4-709deee18b0e_th.jpg"
+    },
+    {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\4121a2ed-8504-4671-bd8f-f950ffbed990_2.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\4121a2ed-8504-4671-bd8f-f950ffbed990_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\9f6c7f91-a286-45ca-8beb-8e740f592094_1.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\9f6c7f91-a286-45ca-8beb-8e740f592094_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\a033a3ee-080b-49a0-8790-36fd465ef7c0_3.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\a033a3ee-080b-49a0-8790-36fd465ef7c0_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\def6a46e-138b-42b5-aca8-3ca2a6a9352b_3.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\def6a46e-138b-42b5-aca8-3ca2a6a9352b_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\e86e9f28-c8e9-4750-8f8e-5c92cf2e463c_M2 Macbook Air.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\e86e9f28-c8e9-4750-8f8e-5c92cf2e463c_M2 Macbook Air.jpg"
     },
     {
       "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\product-details.html",

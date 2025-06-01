@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "e86iHQdAT8UOgQMOxKwPZrzM/0QOTmb4SuhgKRSppAY=",
+  "Hash": "rNPK59v0PgI0bGmVjXou7elUvnUeJ592UrEUJG0b6jE=",
   "Source": "Shopping",
   "BasePath": "_content/Shopping",
   "Mode": "Default",
@@ -78,6 +78,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\404.html"
+    },
+    {
+      "Identity": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\backend\\js\\site.js",
+      "SourceId": "Shopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\",
+      "BasePath": "_content/Shopping",
+      "RelativePath": "backend/js/site#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2qf1wd7m0u",
+      "Integrity": "JpbVdlBhMWrnaWm6FGFNw+w1voEMue3Pp6pyv3/l/kY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\backend\\js\\site.js"
     },
     {
       "Identity": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\blog.html",
@@ -395,6 +416,27 @@
       "OriginalItemSpec": "wwwroot\\Images\\2.jpg"
     },
     {
+      "Identity": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\3.jpg",
+      "SourceId": "Shopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\",
+      "BasePath": "_content/Shopping",
+      "RelativePath": "Images/3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8eyeue8028",
+      "Integrity": "oPtq/k5HU8NwcybrnClpRhRvK/vR2U8K39B5iXlicx0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\3.jpg"
+    },
+    {
       "Identity": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\gallery2.jpg",
       "SourceId": "Shopping",
       "SourceType": "Discovered",
@@ -414,6 +456,69 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\gallery2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\M2 Macbook Air.jpg",
+      "SourceId": "Shopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\",
+      "BasePath": "_content/Shopping",
+      "RelativePath": "Images/M2 Macbook Air#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "svrr85wr9i",
+      "Integrity": "GD5WJfA91T3Um1Cw7mR7CKKTQ4tY/ztk+ayhEIsTWZk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\M2 Macbook Air.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\Macbook Pro.jpg",
+      "SourceId": "Shopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\",
+      "BasePath": "_content/Shopping",
+      "RelativePath": "Images/Macbook Pro#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ipiczxo91i",
+      "Integrity": "Si+ExrVO9xrpDrMT6Y6FS6CWzcobh+g0V84kJNkGqLs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Macbook Pro.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\th.jpg",
+      "SourceId": "Shopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\",
+      "BasePath": "_content/Shopping",
+      "RelativePath": "Images/th#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m495dq7x6x",
+      "Integrity": "ir0QXskR1oe4TeWklA21fDMwcesEcIgXQ+IqVFGdPkg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\th.jpg"
     },
     {
       "Identity": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\index.html",
@@ -1844,6 +1949,153 @@
       "OriginalItemSpec": "wwwroot\\login.html"
     },
     {
+      "Identity": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\018cd622-1fbf-4a42-8661-9bad5c2c312f_3.jpg",
+      "SourceId": "Shopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\",
+      "BasePath": "_content/Shopping",
+      "RelativePath": "media/products/018cd622-1fbf-4a42-8661-9bad5c2c312f_3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8eyeue8028",
+      "Integrity": "oPtq/k5HU8NwcybrnClpRhRvK/vR2U8K39B5iXlicx0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\products\\018cd622-1fbf-4a42-8661-9bad5c2c312f_3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\15d0e1d9-14cb-42b4-a2f4-709deee18b0e_th.jpg",
+      "SourceId": "Shopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\",
+      "BasePath": "_content/Shopping",
+      "RelativePath": "media/products/15d0e1d9-14cb-42b4-a2f4-709deee18b0e_th#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m495dq7x6x",
+      "Integrity": "ir0QXskR1oe4TeWklA21fDMwcesEcIgXQ+IqVFGdPkg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\products\\15d0e1d9-14cb-42b4-a2f4-709deee18b0e_th.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\4121a2ed-8504-4671-bd8f-f950ffbed990_2.jpg",
+      "SourceId": "Shopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\",
+      "BasePath": "_content/Shopping",
+      "RelativePath": "media/products/4121a2ed-8504-4671-bd8f-f950ffbed990_2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jtn6e3totr",
+      "Integrity": "F0jfucy/v5YHMeMG8CXDg5gSEa0tPKiv0d/VIj/aIUE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\products\\4121a2ed-8504-4671-bd8f-f950ffbed990_2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\9f6c7f91-a286-45ca-8beb-8e740f592094_1.jpg",
+      "SourceId": "Shopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\",
+      "BasePath": "_content/Shopping",
+      "RelativePath": "media/products/9f6c7f91-a286-45ca-8beb-8e740f592094_1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ps17jbrgcd",
+      "Integrity": "J0zU+NTs9QfM/GTg1RbgQVEfqMkC8c7xRw5+vDuH01g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\products\\9f6c7f91-a286-45ca-8beb-8e740f592094_1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\a033a3ee-080b-49a0-8790-36fd465ef7c0_3.jpg",
+      "SourceId": "Shopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\",
+      "BasePath": "_content/Shopping",
+      "RelativePath": "media/products/a033a3ee-080b-49a0-8790-36fd465ef7c0_3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8eyeue8028",
+      "Integrity": "oPtq/k5HU8NwcybrnClpRhRvK/vR2U8K39B5iXlicx0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\products\\a033a3ee-080b-49a0-8790-36fd465ef7c0_3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\def6a46e-138b-42b5-aca8-3ca2a6a9352b_3.jpg",
+      "SourceId": "Shopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\",
+      "BasePath": "_content/Shopping",
+      "RelativePath": "media/products/def6a46e-138b-42b5-aca8-3ca2a6a9352b_3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8eyeue8028",
+      "Integrity": "oPtq/k5HU8NwcybrnClpRhRvK/vR2U8K39B5iXlicx0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\products\\def6a46e-138b-42b5-aca8-3ca2a6a9352b_3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\e86e9f28-c8e9-4750-8f8e-5c92cf2e463c_M2 Macbook Air.jpg",
+      "SourceId": "Shopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\",
+      "BasePath": "_content/Shopping",
+      "RelativePath": "media/products/e86e9f28-c8e9-4750-8f8e-5c92cf2e463c_M2 Macbook Air#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "svrr85wr9i",
+      "Integrity": "GD5WJfA91T3Um1Cw7mR7CKKTQ4tY/ztk+ayhEIsTWZk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\media\\products\\e86e9f28-c8e9-4750-8f8e-5c92cf2e463c_M2 Macbook Air.jpg"
+    },
+    {
       "Identity": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\product-details.html",
       "SourceId": "Shopping",
       "SourceType": "Discovered",
@@ -1987,6 +2239,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-hh1J9Bww+zc0o+nNAbdJYMIRaJ5D5dPNsZhRqP0GfnE="
+        }
+      ]
+    },
+    {
+      "Route": "backend/js/site.2qf1wd7m0u.js",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\backend\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "661"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JpbVdlBhMWrnaWm6FGFNw+w1voEMue3Pp6pyv3/l/kY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 15:24:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2qf1wd7m0u"
+        },
+        {
+          "Name": "label",
+          "Value": "backend/js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JpbVdlBhMWrnaWm6FGFNw+w1voEMue3Pp6pyv3/l/kY="
+        }
+      ]
+    },
+    {
+      "Route": "backend/js/site.js",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\backend\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "661"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JpbVdlBhMWrnaWm6FGFNw+w1voEMue3Pp6pyv3/l/kY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 15:24:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JpbVdlBhMWrnaWm6FGFNw+w1voEMue3Pp6pyv3/l/kY="
         }
       ]
     },
@@ -3221,6 +3555,88 @@
       ]
     },
     {
+      "Route": "Images/3.8eyeue8028.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3914"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oPtq/k5HU8NwcybrnClpRhRvK/vR2U8K39B5iXlicx0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 09:17:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8eyeue8028"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oPtq/k5HU8NwcybrnClpRhRvK/vR2U8K39B5iXlicx0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/3.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3914"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oPtq/k5HU8NwcybrnClpRhRvK/vR2U8K39B5iXlicx0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 09:17:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oPtq/k5HU8NwcybrnClpRhRvK/vR2U8K39B5iXlicx0="
+        }
+      ]
+    },
+    {
       "Route": "Images/gallery2.jpg",
       "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\gallery2.jpg",
       "Selectors": [],
@@ -3299,6 +3715,252 @@
         {
           "Name": "integrity",
           "Value": "sha256-SGqhbAWdUYhcsEAALKB1MpWh4tDCnX0LiD1qu+76weE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/M2 Macbook Air.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\M2 Macbook Air.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4511"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GD5WJfA91T3Um1Cw7mR7CKKTQ4tY/ztk+ayhEIsTWZk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 12:58:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GD5WJfA91T3Um1Cw7mR7CKKTQ4tY/ztk+ayhEIsTWZk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/M2 Macbook Air.svrr85wr9i.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\M2 Macbook Air.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4511"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GD5WJfA91T3Um1Cw7mR7CKKTQ4tY/ztk+ayhEIsTWZk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 12:58:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "svrr85wr9i"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/M2 Macbook Air.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GD5WJfA91T3Um1Cw7mR7CKKTQ4tY/ztk+ayhEIsTWZk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Macbook Pro.ipiczxo91i.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\Macbook Pro.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "234152"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Si+ExrVO9xrpDrMT6Y6FS6CWzcobh+g0V84kJNkGqLs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 12:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ipiczxo91i"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Macbook Pro.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Si+ExrVO9xrpDrMT6Y6FS6CWzcobh+g0V84kJNkGqLs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Macbook Pro.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\Macbook Pro.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "234152"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Si+ExrVO9xrpDrMT6Y6FS6CWzcobh+g0V84kJNkGqLs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 12:58:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Si+ExrVO9xrpDrMT6Y6FS6CWzcobh+g0V84kJNkGqLs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/th.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\th.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ir0QXskR1oe4TeWklA21fDMwcesEcIgXQ+IqVFGdPkg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 13:02:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ir0QXskR1oe4TeWklA21fDMwcesEcIgXQ+IqVFGdPkg="
+        }
+      ]
+    },
+    {
+      "Route": "Images/th.m495dq7x6x.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\th.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ir0QXskR1oe4TeWklA21fDMwcesEcIgXQ+IqVFGdPkg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 13:02:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m495dq7x6x"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/th.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ir0QXskR1oe4TeWklA21fDMwcesEcIgXQ+IqVFGdPkg="
         }
       ]
     },
@@ -8875,6 +9537,580 @@
         {
           "Name": "integrity",
           "Value": "sha256-bbZQQZLYoR7iuWeibm40pKVSzBu3nBEtzTrxEp3upec="
+        }
+      ]
+    },
+    {
+      "Route": "media/products/018cd622-1fbf-4a42-8661-9bad5c2c312f_3.8eyeue8028.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\018cd622-1fbf-4a42-8661-9bad5c2c312f_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3914"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oPtq/k5HU8NwcybrnClpRhRvK/vR2U8K39B5iXlicx0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 09:18:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8eyeue8028"
+        },
+        {
+          "Name": "label",
+          "Value": "media/products/018cd622-1fbf-4a42-8661-9bad5c2c312f_3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oPtq/k5HU8NwcybrnClpRhRvK/vR2U8K39B5iXlicx0="
+        }
+      ]
+    },
+    {
+      "Route": "media/products/018cd622-1fbf-4a42-8661-9bad5c2c312f_3.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\018cd622-1fbf-4a42-8661-9bad5c2c312f_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3914"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oPtq/k5HU8NwcybrnClpRhRvK/vR2U8K39B5iXlicx0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 09:18:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oPtq/k5HU8NwcybrnClpRhRvK/vR2U8K39B5iXlicx0="
+        }
+      ]
+    },
+    {
+      "Route": "media/products/15d0e1d9-14cb-42b4-a2f4-709deee18b0e_th.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\15d0e1d9-14cb-42b4-a2f4-709deee18b0e_th.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ir0QXskR1oe4TeWklA21fDMwcesEcIgXQ+IqVFGdPkg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 13:02:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ir0QXskR1oe4TeWklA21fDMwcesEcIgXQ+IqVFGdPkg="
+        }
+      ]
+    },
+    {
+      "Route": "media/products/15d0e1d9-14cb-42b4-a2f4-709deee18b0e_th.m495dq7x6x.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\15d0e1d9-14cb-42b4-a2f4-709deee18b0e_th.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9222"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ir0QXskR1oe4TeWklA21fDMwcesEcIgXQ+IqVFGdPkg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 13:02:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m495dq7x6x"
+        },
+        {
+          "Name": "label",
+          "Value": "media/products/15d0e1d9-14cb-42b4-a2f4-709deee18b0e_th.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ir0QXskR1oe4TeWklA21fDMwcesEcIgXQ+IqVFGdPkg="
+        }
+      ]
+    },
+    {
+      "Route": "media/products/4121a2ed-8504-4671-bd8f-f950ffbed990_2.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\4121a2ed-8504-4671-bd8f-f950ffbed990_2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10603"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F0jfucy/v5YHMeMG8CXDg5gSEa0tPKiv0d/VIj/aIUE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 15:45:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-F0jfucy/v5YHMeMG8CXDg5gSEa0tPKiv0d/VIj/aIUE="
+        }
+      ]
+    },
+    {
+      "Route": "media/products/4121a2ed-8504-4671-bd8f-f950ffbed990_2.jtn6e3totr.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\4121a2ed-8504-4671-bd8f-f950ffbed990_2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10603"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F0jfucy/v5YHMeMG8CXDg5gSEa0tPKiv0d/VIj/aIUE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 15:45:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jtn6e3totr"
+        },
+        {
+          "Name": "label",
+          "Value": "media/products/4121a2ed-8504-4671-bd8f-f950ffbed990_2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-F0jfucy/v5YHMeMG8CXDg5gSEa0tPKiv0d/VIj/aIUE="
+        }
+      ]
+    },
+    {
+      "Route": "media/products/9f6c7f91-a286-45ca-8beb-8e740f592094_1.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\9f6c7f91-a286-45ca-8beb-8e740f592094_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J0zU+NTs9QfM/GTg1RbgQVEfqMkC8c7xRw5+vDuH01g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 15:44:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J0zU+NTs9QfM/GTg1RbgQVEfqMkC8c7xRw5+vDuH01g="
+        }
+      ]
+    },
+    {
+      "Route": "media/products/9f6c7f91-a286-45ca-8beb-8e740f592094_1.ps17jbrgcd.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\9f6c7f91-a286-45ca-8beb-8e740f592094_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J0zU+NTs9QfM/GTg1RbgQVEfqMkC8c7xRw5+vDuH01g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 15:44:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ps17jbrgcd"
+        },
+        {
+          "Name": "label",
+          "Value": "media/products/9f6c7f91-a286-45ca-8beb-8e740f592094_1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J0zU+NTs9QfM/GTg1RbgQVEfqMkC8c7xRw5+vDuH01g="
+        }
+      ]
+    },
+    {
+      "Route": "media/products/a033a3ee-080b-49a0-8790-36fd465ef7c0_3.8eyeue8028.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\a033a3ee-080b-49a0-8790-36fd465ef7c0_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3914"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oPtq/k5HU8NwcybrnClpRhRvK/vR2U8K39B5iXlicx0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 10:21:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8eyeue8028"
+        },
+        {
+          "Name": "label",
+          "Value": "media/products/a033a3ee-080b-49a0-8790-36fd465ef7c0_3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oPtq/k5HU8NwcybrnClpRhRvK/vR2U8K39B5iXlicx0="
+        }
+      ]
+    },
+    {
+      "Route": "media/products/a033a3ee-080b-49a0-8790-36fd465ef7c0_3.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\a033a3ee-080b-49a0-8790-36fd465ef7c0_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3914"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oPtq/k5HU8NwcybrnClpRhRvK/vR2U8K39B5iXlicx0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 10:21:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oPtq/k5HU8NwcybrnClpRhRvK/vR2U8K39B5iXlicx0="
+        }
+      ]
+    },
+    {
+      "Route": "media/products/def6a46e-138b-42b5-aca8-3ca2a6a9352b_3.8eyeue8028.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\def6a46e-138b-42b5-aca8-3ca2a6a9352b_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3914"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oPtq/k5HU8NwcybrnClpRhRvK/vR2U8K39B5iXlicx0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 09:32:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8eyeue8028"
+        },
+        {
+          "Name": "label",
+          "Value": "media/products/def6a46e-138b-42b5-aca8-3ca2a6a9352b_3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oPtq/k5HU8NwcybrnClpRhRvK/vR2U8K39B5iXlicx0="
+        }
+      ]
+    },
+    {
+      "Route": "media/products/def6a46e-138b-42b5-aca8-3ca2a6a9352b_3.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\def6a46e-138b-42b5-aca8-3ca2a6a9352b_3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3914"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oPtq/k5HU8NwcybrnClpRhRvK/vR2U8K39B5iXlicx0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 09:32:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oPtq/k5HU8NwcybrnClpRhRvK/vR2U8K39B5iXlicx0="
+        }
+      ]
+    },
+    {
+      "Route": "media/products/e86e9f28-c8e9-4750-8f8e-5c92cf2e463c_M2 Macbook Air.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\e86e9f28-c8e9-4750-8f8e-5c92cf2e463c_M2 Macbook Air.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4511"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GD5WJfA91T3Um1Cw7mR7CKKTQ4tY/ztk+ayhEIsTWZk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 13:00:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GD5WJfA91T3Um1Cw7mR7CKKTQ4tY/ztk+ayhEIsTWZk="
+        }
+      ]
+    },
+    {
+      "Route": "media/products/e86e9f28-c8e9-4750-8f8e-5c92cf2e463c_M2 Macbook Air.svrr85wr9i.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\e86e9f28-c8e9-4750-8f8e-5c92cf2e463c_M2 Macbook Air.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4511"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GD5WJfA91T3Um1Cw7mR7CKKTQ4tY/ztk+ayhEIsTWZk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 01 Jun 2025 13:00:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "svrr85wr9i"
+        },
+        {
+          "Name": "label",
+          "Value": "media/products/e86e9f28-c8e9-4750-8f8e-5c92cf2e463c_M2 Macbook Air.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GD5WJfA91T3Um1Cw7mR7CKKTQ4tY/ztk+ayhEIsTWZk="
         }
       ]
     },

@@ -42,6 +42,18 @@ app.MapControllerRoute(
 );
 
 app.MapControllerRoute(
+    name: "category",
+    pattern: "/category/{Slug?}",
+    defaults: new {controller = "Category", action = "index" }
+);
+
+app.MapControllerRoute(
+    name: "brand",
+    pattern: "/brand/{Slug?}",
+    defaults: new { controller = "Brand", action = "index" }
+);
+
+app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 

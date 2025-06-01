@@ -4,7 +4,7 @@
 }
 <h4>Create Product</h4>
 <div class="col-md-9">
-    <form action="/" method="post">
+    <form asp-action="Create" enctype="multipart/form-data">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>   
         <div class="form-group">
             <label>Name</label>
@@ -37,8 +37,10 @@
         </div>
         <div class="form-group">
             <label>Image</label>
-            <input asp-for="ImageUpload" class="form-control-file" />
-            <span asp-validation-for="ImageUpload" class="text-danger" />
+            <input asp-for="ImageUpload" class="form-control" />
+            <span asp-validation-for="ImageUpload" class="text-danger"></span>
+            <img id="imgpreview" class="pt-2" />
+
         </div>
         <div class="form-group">
             <button class="btn btn-primary">Create</button>
@@ -46,11 +48,18 @@
     </form>
     <a asp-action="Index">Back to list Product</a>
 </div>
-@section Scripts{
+@section Scripts{ 
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
     <script src="https://cdn.ckeditor.com/4.22.1/standard/ckeditor.js"></script>
+    
+    <script>
+        $("#ImageUpload").change(function(){
+            readURL(this);
+        })
+    </script>
+
     <script>
         CKEDITOR.replace( 'Description' );
     </script>

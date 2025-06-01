@@ -14,7 +14,7 @@ namespace Shopping.Reponitory.Validation
                 if (!result)
                     return new ValidationResult("Allowed extentions are jpg, png or jpeg");
             }
-            return new ValidationResult("Success");
+            return ValidationResult.Success;
         }
     }
 }

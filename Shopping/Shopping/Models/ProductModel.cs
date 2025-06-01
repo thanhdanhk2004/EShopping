@@ -14,9 +14,11 @@ namespace Shopping.Models
         [Required, MinLength(4, ErrorMessage = "Yeu cau nhap mo ta san pham")]
         public string Description { get; set; }
         public string Slug {  get; set; }
-        [Required, MinLength(4, ErrorMessage = "Yeu cau nhap gia san pham")]
+        [Required]
+        [Range(0.01, double.MaxValue)]
+        //[Column(TypeName = "decimal(8,2 ")]
         public decimal Price { get; set; }
-        public string Image {  get; set; }
+        public string Image { get; set; }
         public int BrandId {  get; set; }
         public int CategoryId {  get; set; }
         public BrandModel Brand { get; set; }
@@ -24,6 +26,6 @@ namespace Shopping.Models
 
         [NotMapped]
         [FileExtention]
-        public IFormFile ImageUpload { get; set; }
+        public IFormFile? ImageUpload { get; set; }
     }
 }
