@@ -1,10 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc.ModelBinding;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Shopping.Models;
 
 namespace Shopping.Reponitory
 {
-    public class Context : DbContext   
+    public class Context : IdentityDbContext   
     {
         public Context() { }
 

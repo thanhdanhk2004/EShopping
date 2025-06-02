@@ -22,6 +22,10 @@ builder.Services.AddSession(options =>
 
 var app = builder.Build();
 
+//Dang ky trang 404
+app.UseStatusCodePagesWithRedirects("/Home/Error?statuscode={0}");
+
+
 //su dung Session
 app.UseSession();
 

@@ -173,3 +173,4 @@ C:\Users\add\Pictures\HocChuyenNganh\EShopping\Shopping\Shopping\bin\Debug\net8.
 C:\Users\add\Pictures\HocChuyenNganh\EShopping\Shopping\Shopping\obj\Debug\net8.0\Shopping.csproj.Up2Date
 C:\Users\add\Pictures\HocChuyenNganh\EShopping\Shopping\Shopping\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\add\Pictures\HocChuyenNganh\EShopping\Shopping\Shopping\obj\Debug\net8.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\add\Pictures\HocChuyenNganh\EShopping\Shopping\Shopping\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
