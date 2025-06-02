@@ -1,4 +1,6 @@
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Shopping.Models;
 using Shopping.Reponitory;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,6 +13,23 @@ builder.Services.AddDbContext<Context>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("ConnectedDb"));
 });
+
+//Cau hinh Identity
+builder.Services.AddIdentity<AppUserModel, IdentityRole>()
+    .AddEntityFrameworkStores<Context>()
+    .AddDefaultTokenProviders();
+
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    // Password settings.
+    options.Password.RequireDigit = true;
+    options.Password.RequireLowercase = true;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequiredLength = 4;
+    options.User.RequireUniqueEmail = true;
+});
+
 
 //Dang ky session
 builder.Services.AddDistributedMemoryCache();
@@ -38,7 +57,9 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthorization();
+app.UseAuthentication();//Xác thực
+app.UseAuthorization();//Phân quyền
+
 
 app.MapControllerRoute(
     name: "Areas",

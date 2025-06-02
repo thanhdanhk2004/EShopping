@@ -4,7 +4,7 @@ using Shopping.Models;
 
 namespace Shopping.Reponitory
 {
-    public class Context : IdentityDbContext   
+    public class Context : IdentityDbContext<AppUserModel>
     {
         public Context() { }
 
