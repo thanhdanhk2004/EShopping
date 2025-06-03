@@ -54,7 +54,13 @@
 						<tr>
 							<td colspan="6">Grand Total: <p class="cart_total_price">@Model.GrandTotal.ToString()</p></td>
 							<td>
-								<a class="btn btn-danger btn-sm" asp-controller="Cart" asp-action="Clear"> Clear </a>
+								<div class="d-flex justify-content-around">
+									<a class="btn btn-danger btn-sm" asp-controller="Cart" asp-action="Clear"> Clear </a>
+									@if(User.Identity?.IsAuthenticated ?? false)
+									{
+										<a class="btn btn-primary btn-sm" asp-controller="Checkout" asp-action="Checkout"> Checkout </a>
+									}
+								</div>
 							</td>
 						</tr>
 					}

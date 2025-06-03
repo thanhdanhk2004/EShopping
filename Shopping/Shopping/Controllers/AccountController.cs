@@ -38,7 +38,13 @@ namespace Shopping.Controllers
             }
             return View(loginVM);
         }
-        
+
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return Redirect("/");
+        }
+
         public IActionResult Create()
         {
             return View();
