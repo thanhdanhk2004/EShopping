@@ -7,6 +7,7 @@ namespace Shopping.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Authorize]
+    [Authorize(Roles = "Publisher, Author")]
     public class BrandController : Controller
     {
         private readonly Context _context;

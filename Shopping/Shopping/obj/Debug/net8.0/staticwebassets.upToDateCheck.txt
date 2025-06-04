@@ -15,10 +15,13 @@ wwwroot\checkout.html
 wwwroot\favicon.ico
 wwwroot\Images\1.jpg
 wwwroot\Images\2.jpg
+wwwroot\Images\2893283-1.avif
 wwwroot\Images\3.jpg
 wwwroot\Images\gallery2.jpg
 wwwroot\Images\M2 Macbook Air.jpg
 wwwroot\Images\Macbook Pro.jpg
+wwwroot\Images\tablet S9.jpg
+wwwroot\Images\th (1).jpg
 wwwroot\Images\th.jpg
 wwwroot\index.html
 wwwroot\js\bootstrap.min.js
@@ -90,9 +93,11 @@ wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 wwwroot\login.html
 wwwroot\media\products\018cd622-1fbf-4a42-8661-9bad5c2c312f_3.jpg
 wwwroot\media\products\15d0e1d9-14cb-42b4-a2f4-709deee18b0e_th.jpg
+wwwroot\media\products\32e9a293-063b-4700-b7bb-d85dc7337c0e_th (1).jpg
 wwwroot\media\products\4121a2ed-8504-4671-bd8f-f950ffbed990_2.jpg
 wwwroot\media\products\9f6c7f91-a286-45ca-8beb-8e740f592094_1.jpg
 wwwroot\media\products\a033a3ee-080b-49a0-8790-36fd465ef7c0_3.jpg
+wwwroot\media\products\b448d148-15bc-4f76-adad-a469520764e5_tablet S9.jpg
 wwwroot\media\products\def6a46e-138b-42b5-aca8-3ca2a6a9352b_3.jpg
 wwwroot\media\products\e86e9f28-c8e9-4750-8f8e-5c92cf2e463c_M2 Macbook Air.jpg
 wwwroot\product-details.html

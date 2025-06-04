@@ -16,10 +16,24 @@ namespace Shopping.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        //public IActionResult Index()
+        //{
+
+        //    var products = _context.Products.Include("Category").Include("Brand").ToList();
+        //    return View(products);
+        //}
+
+        public async Task<IActionResult> Index(int page = 1)
         {
-            var products = _context.Products.Include("Category").Include("Brand").ToList();
-            return View(products);
+            var products = await _context.Products.Include("Category").Include("Brand").ToListAsync();
+            if (page < 0)
+                page = 1;
+
+            var pager = new Paginate(products.Count, page);
+            int rec_skip = (page - 1) * 6;
+            var data = products.Skip(rec_skip).Take(6).ToList();
+            ViewBag.Pager = pager;
+            return View(data);
         }
 
         public IActionResult Privacy()

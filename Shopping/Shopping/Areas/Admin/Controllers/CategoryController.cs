@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Shopping.Models;
 using Shopping.Reponitory;
 
@@ -7,6 +8,8 @@ namespace Shopping.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Authorize]
+    [Authorize(Roles = "Publisher, Author, Admin")]
+
     public class CategoryController : Controller
     {
         private readonly Context _context;
@@ -15,9 +18,17 @@ namespace Shopping.Areas.Admin.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        [Route("Index")]
+        public async Task<IActionResult> Index(int page = 1)
         {
-            return View(_context.Categories.ToList());
+            List<CategoryModel> categories = await _context.Categories.ToListAsync();
+            if(page < 1)
+                page = 1;
+            var pager = new Paginate(categories.Count, page);
+            int rec_skip = (page - 1) * 5;
+            var data = categories.Skip(rec_skip).Take(5).ToList();
+            ViewBag.Pager = pager;
+            return View(data);
         }
 
         public IActionResult Create()

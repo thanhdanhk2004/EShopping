@@ -1,6 +1,13 @@
 ﻿@model IEnumerable<CategoryModel>
 @{
     ViewData["title"] = "Categoryies Listed";
+    Paginate paginate = new Paginate();
+    int page_no = 0;
+    if(ViewBag.Pager != null)
+    {
+        paginate = ViewBag.Pager;
+        page_no = paginate.CurrentPage;
+    }
 }
 <h3>List Category</h3>
 <a class="btn btn-warning btn-sm" asp-action="Create" asp-controller="Category">Add Category</a>
@@ -37,5 +44,7 @@
                 </td>
             </tr>
         }
+        
     </tbody>
 </table>
+<partial name="_PagingPartial" model="@paginate"/>

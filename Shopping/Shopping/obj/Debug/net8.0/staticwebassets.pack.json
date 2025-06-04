@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\Images\\2.jpg"
     },
     {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\2893283-1.avif",
+      "PackagePath": "staticwebassets\\Images\\2893283-1.avif"
+    },
+    {
       "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\3.jpg",
       "PackagePath": "staticwebassets\\Images\\3.jpg"
     },
@@ -31,6 +35,14 @@
     {
       "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\gallery2.jpg",
       "PackagePath": "staticwebassets\\Images\\gallery2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\tablet S9.jpg",
+      "PackagePath": "staticwebassets\\Images\\tablet S9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\th (1).jpg",
+      "PackagePath": "staticwebassets\\Images\\th (1).jpg"
     },
     {
       "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\th.jpg",
@@ -373,6 +385,10 @@
       "PackagePath": "staticwebassets\\media\\products\\15d0e1d9-14cb-42b4-a2f4-709deee18b0e_th.jpg"
     },
     {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\32e9a293-063b-4700-b7bb-d85dc7337c0e_th (1).jpg",
+      "PackagePath": "staticwebassets\\media\\products\\32e9a293-063b-4700-b7bb-d85dc7337c0e_th (1).jpg"
+    },
+    {
       "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\4121a2ed-8504-4671-bd8f-f950ffbed990_2.jpg",
       "PackagePath": "staticwebassets\\media\\products\\4121a2ed-8504-4671-bd8f-f950ffbed990_2.jpg"
     },
@@ -383,6 +399,10 @@
     {
       "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\a033a3ee-080b-49a0-8790-36fd465ef7c0_3.jpg",
       "PackagePath": "staticwebassets\\media\\products\\a033a3ee-080b-49a0-8790-36fd465ef7c0_3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\b448d148-15bc-4f76-adad-a469520764e5_tablet S9.jpg",
+      "PackagePath": "staticwebassets\\media\\products\\b448d148-15bc-4f76-adad-a469520764e5_tablet S9.jpg"
     },
     {
       "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\def6a46e-138b-42b5-aca8-3ca2a6a9352b_3.jpg",

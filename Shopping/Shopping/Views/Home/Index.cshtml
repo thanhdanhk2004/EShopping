@@ -1,4 +1,13 @@
 ﻿@model IEnumerable<ProductModel>
+@{
+	Paginate paginate = new Paginate();
+	int page_no = 0;
+	if(ViewBag.Pager != null)
+	{
+		paginate = ViewBag.Pager;
+		page_no = paginate.CurrentPage;
+	}
+}
 
 <div class="col-sm-3">
 	@Html.Partial("_SidebarPartial")
@@ -38,7 +47,5 @@
 
 
 	</div><!--features_items-->
-
-	
-
 </div>
+<partial name="_PagingPartial" model="@paginate"/>
