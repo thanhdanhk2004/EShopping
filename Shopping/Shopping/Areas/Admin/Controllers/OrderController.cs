@@ -25,5 +25,22 @@ namespace Shopping.Areas.Admin.Controllers
             var order_details = await _context.OrderDetails.Include(o => o.Product).Where(o => o.OrderCode == ordercode).ToListAsync();
             return View(order_details);
         }
+
+        [HttpPost]
+        [Route("UpdateOrder")]
+        public async Task<IActionResult> UpdateOrder(int status, string ordercode)
+        {
+            var order = await _context.Orders.FirstOrDefaultAsync(o => o.OrderCode == ordercode);
+            order.Status = status;
+            try
+            {
+                await _context.SaveChangesAsync();
+                return Ok(new {success = true, message="Order status update success"});
+            } catch (Exception ex)
+            {
+                return StatusCode(500, "An error occurred while updating the order status");
+            }
+            return View();
+        }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Shopping.Areas.Admin.Reponsitory;
 using Shopping.Models;
 using Shopping.Reponitory;
 
@@ -8,11 +9,15 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+
 //Ket noi den database
 builder.Services.AddDbContext<Context>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("ConnectedDb"));
 });
+
+// Dang ky gui mail
+builder.Services.AddTransient<IEmailSender, EmailSender>();
 
 //Cau hinh Identity
 builder.Services.AddIdentity<AppUserModel, IdentityRole>()
@@ -38,6 +43,8 @@ builder.Services.AddSession(options =>
     options.IOTimeout = TimeSpan.FromMinutes(15);
     options.Cookie.IsEssential = true;
 });
+
+
 
 var app = builder.Build();
 

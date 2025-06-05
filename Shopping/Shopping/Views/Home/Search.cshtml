@@ -1,8 +1,9 @@
 ﻿@model IEnumerable<ProductModel>
 @{
+	ViewData["title"] = "Search Page";
 	Paginate paginate = new Paginate();
 	int page_no = 0;
-	if(ViewBag.Pager != null)
+	if (ViewBag.Pager != null)
 	{
 		paginate = ViewBag.Pager;
 		page_no = paginate.CurrentPage;
@@ -16,7 +17,7 @@
 <div class="col-sm-9 padding-right">
 	<div class="features_items">
 		<!--features_items-->
-		<h2 class="title text-center">Features Items</h2>
+		<h2 class="title text-center">@ViewBag.Keyword</h2>
 		@foreach (var item in Model)
 		{
 			<div class="col-sm-4">
@@ -24,9 +25,9 @@
 					<a>
 						<div class="single-products">
 							<div class="productinfo text-center">
-								<a asp-action="Detail" asp-controller="Home" asp-route-id="@item.Id">
-									<img src="~/media/products/@item.Image" alt="@item.Name" style="height: 200px"/>
-									<h2>@item.Price.ToString("#, ##0, VND")</h2>
+								<a>
+									<img src="~/media/products/@item.Image" alt="@item.Name" style="height: 200px" />
+									<h2>@item.Price.ToString("#, ##0 VND")</h2>
 									<p>@item.Name</p>
 									<p>Danh mục: @item.Category.Name</p>
 									<p>Thương hiệu: @item.Brand.Name</p>
@@ -46,7 +47,7 @@
 		}
 	</div><!--features_items-->
 </div>
-<partial name="_PagingPartial" model="@paginate"/>
+<partial name="_PagingPartial" model="@paginate" />
 
 @section Scripts {
 	<script>

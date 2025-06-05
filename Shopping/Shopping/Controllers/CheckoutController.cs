@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Shopping.Areas.Admin.Reponsitory;
 using Shopping.Models;
 using Shopping.Models.ViewModels;
 using Shopping.Reponitory;
@@ -9,10 +10,11 @@ namespace Shopping.Controllers
     public class CheckoutController : Controller
     {
         private readonly Context _context;
-
-        public CheckoutController(Context context)
+        private readonly IEmailSender _emailSender;
+        public CheckoutController(Context context, IEmailSender emailSender)
         {
             _context = context;
+            _emailSender = emailSender;
         }
         
         public async Task<IActionResult> Checkout()
@@ -48,6 +50,11 @@ namespace Shopping.Controllers
                 _context.SaveChanges();
             }
             HttpContext.Session.Remove("Cart");
+            //Gui mail
+            var receiver = "a@gmail.com";
+            var subject = "Order";
+            var message = "Order success";
+            await _emailSender.SendEmailAsync(receiver, subject, message);
 
             TempData["success"] = "Add order success";
             return RedirectToAction("index", "Cart");

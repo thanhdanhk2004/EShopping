@@ -8,6 +8,7 @@
 	<title>Home | E-Shopper</title>
 	<link href="~/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.0/dist/sweetalert2.min.css" rel="stylesheet">
 	<link href="~/css/prettyPhoto.css" rel="stylesheet">
 	<link href="~/css/price-range.css" rel="stylesheet">
 	<link href="~/css/animate.css" rel="stylesheet">
@@ -139,9 +140,12 @@
 						</div>
 					</div>
 					<div class="col-sm-3">
-						<div class="search_box pull-right">
-							<input type="text" placeholder="Search" />
-						</div>
+						<form asp-action="Search" asp-controller="Home">
+							<div class="search_box pull-right">
+								<input type="text" placeholder="Search" name="keyword"/>
+								<button class="btn btn-warning">Search</button>
+							</div>
+						</form>
 					</div>
 				</div>
 			</div>
@@ -196,7 +200,6 @@
 	<section>
 		<div class="container">
 			<div class="row">
-				@Html.Partial("_NotificationPartial")
 				@RenderBody()
 			</div>
 		</div>
@@ -212,6 +215,14 @@
 	<script src="~/js/jquery.prettyPhoto.js"></script>
 	<script src="~/js/main.js"></script>
 	<script src="~/backend/js/site.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.0/dist/sweetalert2.all.min.js"></script>
+	<script>
+		$(function(){
+			var message = '@TempData["success"]';
+			if(message != '')
+				swal.fire(message);
+		});
+	</script>
 	@await RenderSectionAsync("Scripts", required: false)
 
 </body>

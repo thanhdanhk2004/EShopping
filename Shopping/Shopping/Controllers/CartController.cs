@@ -25,6 +25,8 @@ namespace Shopping.Controllers
             return View(cart_vm);
         }
 
+        [HttpGet]
+        [Route("Add")]
         public async Task<IActionResult> Add(int id)
         {
             ProductModel product = await _context.Products.FindAsync(id);
@@ -40,8 +42,7 @@ namespace Shopping.Controllers
                 cartItems.Quantity += 1;
             }
             HttpContext.Session.set_json("Cart", items);
-            TempData["success"] = "Thêm thành công";
-            return Redirect(Request.Headers["Referer"].ToString());
+            return Ok(new { success = true, message = "Add cart success" });
         }
 
         public async Task<IActionResult> Decreare(int id)

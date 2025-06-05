@@ -16,12 +16,7 @@ namespace Shopping.Controllers
             _context = context;
         }
 
-        //public IActionResult Index()
-        //{
-
-        //    var products = _context.Products.Include("Category").Include("Brand").ToList();
-        //    return View(products);
-        //}
+      
 
         public async Task<IActionResult> Index(int page = 1)
         {
@@ -50,5 +45,23 @@ namespace Shopping.Controllers
         }
 
 
+        [HttpPost]
+        [Route("Search")]
+        public async Task<IActionResult> Search(string keyword)
+        {
+            var products = await _context.Products.Include("Category").Include("Brand").Where(p => p.Name.Contains(keyword) || p.Description.Contains(keyword)).ToListAsync();
+            ViewBag.Keyword = keyword;
+            return View(products);
+        }
+
+        [HttpGet]
+        [Route("Detail")]
+        public async Task<IActionResult> Detail(int id)
+        {
+            var product = await _context.Products.FindAsync(id);
+            var products = await _context.Products.Include("Brand").Include("Category").Where(p => p.CategoryId == product.CategoryId && p.Id != product.Id).Take(3).ToListAsync();
+            ViewBag.Products = products;
+            return View(product);
+        }
     }
 }
