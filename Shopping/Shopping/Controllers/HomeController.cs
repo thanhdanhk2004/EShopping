@@ -2,6 +2,7 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Shopping.Models;
+using Shopping.Models.ViewModels;
 using Shopping.Reponitory;
 
 namespace Shopping.Controllers
@@ -58,10 +59,15 @@ namespace Shopping.Controllers
         [Route("Detail")]
         public async Task<IActionResult> Detail(int id)
         {
-            var product = await _context.Products.FindAsync(id);
+            var product = _context.Products.Include(p => p.Ratings).Where(p => p.Id == id).FirstOrDefault();
             var products = await _context.Products.Include("Brand").Include("Category").Where(p => p.CategoryId == product.CategoryId && p.Id != product.Id).Take(3).ToListAsync();
             ViewBag.Products = products;
-            return View(product);
+
+            var product_detail_view_model = new ProductDetailsViewModel
+            {
+                Product = product,
+            };
+            return View(product_detail_view_model);
         }
     }
 }

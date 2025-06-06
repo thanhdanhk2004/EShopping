@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Shopping.Reponitory;
 
@@ -11,9 +12,11 @@ using Shopping.Reponitory;
 namespace Shopping.Migrations
 {
     [DbContext(typeof(Context))]
-    partial class ContextModelSnapshot : ModelSnapshot
+    [Migration("20250606082338_update review")]
+    partial class updatereview
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -408,8 +411,7 @@ namespace Shopping.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ProductId")
-                        .IsUnique();
+                    b.HasIndex("ProductId");
 
                     b.ToTable("Ratings");
                 });
@@ -504,17 +506,12 @@ namespace Shopping.Migrations
             modelBuilder.Entity("Shopping.Models.RatingModel", b =>
                 {
                     b.HasOne("Shopping.Models.ProductModel", "Product")
-                        .WithOne("Ratings")
-                        .HasForeignKey("Shopping.Models.RatingModel", "ProductId")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Product");
-                });
-
-            modelBuilder.Entity("Shopping.Models.ProductModel", b =>
-                {
-                    b.Navigation("Ratings");
                 });
 #pragma warning restore 612, 618
         }

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Shopping.hf6cmsypia.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\404.html",
+      "PackagePath": "staticwebassets\\404.html"
+    },
+    {
       "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\1.jpg",
       "PackagePath": "staticwebassets\\Images\\1.jpg"
     },
@@ -49,6 +53,26 @@
       "PackagePath": "staticwebassets\\backend\\js\\site.js"
     },
     {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\blog-single.html",
+      "PackagePath": "staticwebassets\\blog-single.html"
+    },
+    {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\blog.html",
+      "PackagePath": "staticwebassets\\blog.html"
+    },
+    {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\cart.html",
+      "PackagePath": "staticwebassets\\cart.html"
+    },
+    {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\checkout.html",
+      "PackagePath": "staticwebassets\\checkout.html"
+    },
+    {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\contact-us.html",
+      "PackagePath": "staticwebassets\\contact-us.html"
+    },
+    {
       "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\css\\animate.css",
       "PackagePath": "staticwebassets\\css\\animate.css"
     },
@@ -75,6 +99,14 @@
     {
       "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\css\\responsive.css",
       "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
     },
     {
       "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\js\\bootstrap.min.js",
@@ -341,6 +373,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
       "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\018cd622-1fbf-4a42-8661-9bad5c2c312f_3.jpg",
       "PackagePath": "staticwebassets\\media\\products\\018cd622-1fbf-4a42-8661-9bad5c2c312f_3.jpg"
     },
@@ -375,6 +411,18 @@
     {
       "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\media\\products\\e86e9f28-c8e9-4750-8f8e-5c92cf2e463c_M2 Macbook Air.jpg",
       "PackagePath": "staticwebassets\\media\\products\\e86e9f28-c8e9-4750-8f8e-5c92cf2e463c_M2 Macbook Air.jpg"
+    },
+    {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\product-details.html",
+      "PackagePath": "staticwebassets\\product-details.html"
+    },
+    {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\sendemail.php",
+      "PackagePath": "staticwebassets\\sendemail.php"
+    },
+    {
+      "Id": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\shop.html",
+      "PackagePath": "staticwebassets\\shop.html"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Shopping.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
