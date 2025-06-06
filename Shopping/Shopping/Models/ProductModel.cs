@@ -23,7 +23,7 @@ namespace Shopping.Models
         public int CategoryId {  get; set; }
         public BrandModel Brand { get; set; }
         public CategoryModel Category { get; set; }
-        public RatingModel Ratings { get; set; }
+        public List<RatingModel> Ratings { get; set; }
 
         [NotMapped]
         [FileExtention]

@@ -120,8 +120,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>orhkmq4p1y</Fingerprint>
-      <Integrity>DGsvHW1rvkzyGQoEY7qmyJxrJzFFGkwWu5msg7ZADWM=</Integrity>
+      <Fingerprint>kpwgc5lsjr</Fingerprint>
+      <Integrity>aOZgwScd51WxdGnLSaNH6v59mLgeEmhv78e0LO62dq8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\contact-us.html'))</OriginalItemSpec>

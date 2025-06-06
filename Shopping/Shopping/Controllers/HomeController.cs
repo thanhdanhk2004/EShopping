@@ -69,5 +69,10 @@ namespace Shopping.Controllers
             };
             return View(product_detail_view_model);
         }
+
+        public IActionResult Contact()
+        {
+            return View();
+        }
     }
 }
