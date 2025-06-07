@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Shopping.Models;
@@ -10,11 +11,13 @@ namespace Shopping.Controllers
     public class HomeController : Controller
     {
         private readonly Context _context;
+        private UserManager<AppUserModel> _userManager;
         private readonly ILogger<HomeController> _logger;
-        public HomeController(ILogger<HomeController> logger, Context context)
+        public HomeController(ILogger<HomeController> logger, Context context, UserManager<AppUserModel> userManager)
         {
             _logger = logger;
             _context = context;
+            _userManager = userManager;
         }
 
       
@@ -73,6 +76,26 @@ namespace Shopping.Controllers
         public IActionResult Contact()
         {
             return View(_context.Contacts.FirstOrDefault());
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddWishList(int id)
+        {
+            var user = await _userManager.GetUserAsync(User);
+            WishListModel wish_list = new WishListModel
+            {
+                ProductId = id,
+                UserId = user.Id,
+            };
+            _context.WishList.Add(wish_list);
+            try
+            {
+                await _context.SaveChangesAsync();
+                return Ok(new { success = true, message = "Add to wish list success" });
+            }catch(Exception ex)
+            {
+                return Ok(new { success = false, message = ex.Message });
+            }
         }
     }
 }

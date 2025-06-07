@@ -17,5 +17,7 @@ namespace Shopping.Reponitory
         public virtual DbSet<OrderDetailModel> OrderDetails { get; set; }
         public virtual DbSet<RatingModel> Ratings { get; set; }
         public virtual DbSet<ContactModel> Contacts { get; set; }
+        public virtual DbSet<CompareModel> Compares { get; set; }
+        public virtual DbSet<WishListModel> WishList { get; set; }
     }
 }
