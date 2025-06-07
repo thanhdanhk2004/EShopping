@@ -75,6 +75,7 @@ namespace Shopping.Areas.Admin.Controllers
                 existed_contact.Phone = contact.Phone;
                 existed_contact.Map = contact.Map;
                 existed_contact.LogoImage = contact.LogoImage;
+                existed_contact.Email = contact.Email;
 
                 _context.Update(existed_contact);
                 _context.SaveChanges();

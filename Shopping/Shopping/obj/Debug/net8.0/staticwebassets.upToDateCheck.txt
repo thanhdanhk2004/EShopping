@@ -18,6 +18,10 @@ wwwroot\Images\2.jpg
 wwwroot\Images\2893283-1.avif
 wwwroot\Images\3.jpg
 wwwroot\Images\gallery2.jpg
+wwwroot\Images\kevin1.jpg
+wwwroot\Images\kevin2.jpg
+wwwroot\Images\kevin3.jpg
+wwwroot\Images\kevin4.jpg
 wwwroot\Images\M2 Macbook Air.jpg
 wwwroot\Images\Macbook Pro.jpg
 wwwroot\Images\tablet S9.jpg

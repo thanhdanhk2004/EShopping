@@ -72,7 +72,7 @@ namespace Shopping.Controllers
 
         public IActionResult Contact()
         {
-            return View();
+            return View(_context.Contacts.FirstOrDefault());
         }
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "b87PixNjxgCu/owK7Wz9iBEZqG4BYkEF3tMfor0LzI4=",
+  "Hash": "eYFdVbBnT2mupjTMC0BMZqG1JCEz+r34xuu6iqqxXIM=",
   "Source": "Shopping",
   "BasePath": "_content/Shopping",
   "Mode": "Default",
@@ -477,6 +477,90 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\gallery2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\kevin1.jpg",
+      "SourceId": "Shopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\",
+      "BasePath": "_content/Shopping",
+      "RelativePath": "Images/kevin1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m8nkmaszh4",
+      "Integrity": "Wo/ZveaomuCau7AEGIfgnASKHsjIc7QhKpCzMAlX8gs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\kevin1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\kevin2.jpg",
+      "SourceId": "Shopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\",
+      "BasePath": "_content/Shopping",
+      "RelativePath": "Images/kevin2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n7ph7vnkke",
+      "Integrity": "40zNL+ZPHdVLtash7s5nMDdMvL7hWJXxzoKCksMCgIo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\kevin2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\kevin3.jpg",
+      "SourceId": "Shopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\",
+      "BasePath": "_content/Shopping",
+      "RelativePath": "Images/kevin3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "61pn36ypy1",
+      "Integrity": "evn3nuMVAYVUkfTGaTDXQ9oR0T9rimi21cezXFw/pBw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\kevin3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\kevin4.jpg",
+      "SourceId": "Shopping",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\",
+      "BasePath": "_content/Shopping",
+      "RelativePath": "Images/kevin4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1t1tk5elim",
+      "Integrity": "m2nNFIHOidaShP2Ij4sYokC4TFSr7dujRnBa8OzR3H0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\kevin4.jpg"
     },
     {
       "Identity": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\M2 Macbook Air.jpg",
@@ -3902,6 +3986,334 @@
         {
           "Name": "integrity",
           "Value": "sha256-SGqhbAWdUYhcsEAALKB1MpWh4tDCnX0LiD1qu+76weE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/kevin1.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\kevin1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8994"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wo/ZveaomuCau7AEGIfgnASKHsjIc7QhKpCzMAlX8gs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 06:41:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wo/ZveaomuCau7AEGIfgnASKHsjIc7QhKpCzMAlX8gs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/kevin1.m8nkmaszh4.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\kevin1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8994"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Wo/ZveaomuCau7AEGIfgnASKHsjIc7QhKpCzMAlX8gs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 06:41:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m8nkmaszh4"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/kevin1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Wo/ZveaomuCau7AEGIfgnASKHsjIc7QhKpCzMAlX8gs="
+        }
+      ]
+    },
+    {
+      "Route": "Images/kevin2.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\kevin2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13039"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"40zNL+ZPHdVLtash7s5nMDdMvL7hWJXxzoKCksMCgIo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 06:41:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-40zNL+ZPHdVLtash7s5nMDdMvL7hWJXxzoKCksMCgIo="
+        }
+      ]
+    },
+    {
+      "Route": "Images/kevin2.n7ph7vnkke.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\kevin2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13039"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"40zNL+ZPHdVLtash7s5nMDdMvL7hWJXxzoKCksMCgIo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 06:41:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n7ph7vnkke"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/kevin2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-40zNL+ZPHdVLtash7s5nMDdMvL7hWJXxzoKCksMCgIo="
+        }
+      ]
+    },
+    {
+      "Route": "Images/kevin3.61pn36ypy1.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\kevin3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9166"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"evn3nuMVAYVUkfTGaTDXQ9oR0T9rimi21cezXFw/pBw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 06:41:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "61pn36ypy1"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/kevin3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-evn3nuMVAYVUkfTGaTDXQ9oR0T9rimi21cezXFw/pBw="
+        }
+      ]
+    },
+    {
+      "Route": "Images/kevin3.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\kevin3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9166"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"evn3nuMVAYVUkfTGaTDXQ9oR0T9rimi21cezXFw/pBw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 06:41:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-evn3nuMVAYVUkfTGaTDXQ9oR0T9rimi21cezXFw/pBw="
+        }
+      ]
+    },
+    {
+      "Route": "Images/kevin4.1t1tk5elim.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\kevin4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14358"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m2nNFIHOidaShP2Ij4sYokC4TFSr7dujRnBa8OzR3H0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 06:42:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1t1tk5elim"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/kevin4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m2nNFIHOidaShP2Ij4sYokC4TFSr7dujRnBa8OzR3H0="
+        }
+      ]
+    },
+    {
+      "Route": "Images/kevin4.jpg",
+      "AssetFile": "C:\\Users\\add\\Pictures\\HocChuyenNganh\\EShopping\\Shopping\\Shopping\\wwwroot\\Images\\kevin4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14358"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m2nNFIHOidaShP2Ij4sYokC4TFSr7dujRnBa8OzR3H0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 07 Jun 2025 06:42:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m2nNFIHOidaShP2Ij4sYokC4TFSr7dujRnBa8OzR3H0="
         }
       ]
     },
