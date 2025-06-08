@@ -48,13 +48,22 @@ namespace Shopping.Controllers
                 };
                 _context.OrderDetails.Add(order_detail);
                 _context.SaveChanges();
+
+                var product = await _context.Products.FindAsync(cart.ProductId);
+                if(product != null)
+                {
+                    product.Quantity = product.Quantity - order_detail.Quantity;
+                    product.Sold += order_detail.Quantity;
+                    _context.Products.Update(product);
+                    _context.SaveChanges();
+                }
             }
             HttpContext.Session.Remove("Cart");
             //Gui mail
-            var receiver = "a@gmail.com";
-            var subject = "Order";
-            var message = "Order success";
-            await _emailSender.SendEmailAsync(receiver, subject, message);
+            //var receiver = "a@gmail.com";
+            //var subject = "Order";
+            //var message = "Order success";
+            //await _emailSender.SendEmailAsync(receiver, subject, message);
 
             TempData["success"] = "Add order success";
             return RedirectToAction("index", "Cart");

@@ -177,5 +177,37 @@ namespace Shopping.Areas.Admin.Controllers
             TempData["success"] = "Xoa san pham thanh cong";
             return RedirectToAction("Index");
         }
+
+
+        [HttpGet]
+        [Route("AddQuantity")]
+        public async Task<IActionResult> AddQuantity(int id)
+        {
+            var product_quantyties = await _context.ProductQuantity.Where(q => q.ProductId == id).ToListAsync(); 
+            ViewBag.Id = id;
+            ViewBag.ProductByQuantity = product_quantyties;
+            return View();
+        }
+
+        [HttpPost]
+        [Route("AddQuantity")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> AddQuantity(int id,ProductQuantityModel model)
+        {
+            var product = await _context.Products.FindAsync(id);
+            if(product == null)
+                return NotFound();
+            product.Quantity += model.Quantity;
+            ProductQuantityModel productQuantityModel = new ProductQuantityModel
+            {
+                ProductId = product.Id,
+                Quantity = model.Quantity,
+                DateCreate = DateTime.Now,
+            };
+            _context.ProductQuantity.Add(productQuantityModel);
+            await _context.SaveChangesAsync();
+            return RedirectToAction("Index", "Product");
+        }
     }
+
 }

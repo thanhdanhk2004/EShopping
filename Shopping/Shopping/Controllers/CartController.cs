@@ -70,19 +70,21 @@ namespace Shopping.Controllers
             return RedirectToAction("Index");
         }
 
-
+        [HttpGet]
+        [Route("Increare")]
         public async Task<IActionResult> Increare(int id)
         {
             List<CartItemModel> items = HttpContext.Session.get_Json<List<CartItemModel>>("Cart");
+            var products = await _context.Products.FindAsync(id);
 
             CartItemModel cartItems = items.Where(c => c.ProductId == id).FirstOrDefault();
-            if (cartItems.Quantity >= 1)
+            if (cartItems.Quantity >= 1 && products.Quantity > cartItems.Quantity)
             {
                 ++cartItems.Quantity;
             }
             else
             {
-                items.RemoveAll(p => p.ProductId == id);
+                TempData["success"] = "Sold out"; 
             }
 
             if (items.Count == 0)

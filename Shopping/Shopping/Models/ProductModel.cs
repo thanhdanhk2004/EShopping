@@ -1,7 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-
-
+using System.Diagnostics.CodeAnalysis;
 using Shopping.Reponitory.Validation;
 namespace Shopping.Models
 {
@@ -28,5 +27,9 @@ namespace Shopping.Models
         [NotMapped]
         [FileExtention]
         public IFormFile? ImageUpload { get; set; }
+        [AllowNull]
+        public int Quantity {  get; set; }
+        [AllowNull]
+        public int Sold {  get; set; }
     }
 }

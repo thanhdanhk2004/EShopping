@@ -9,6 +9,9 @@
         <tr>
             <th scope="col">STT</th>
             <th scope="col">Product Name</th>
+            <th scope="col">Product Add Quantity</th>
+            <th scope="col">Product Quantity</th>
+            <th scope="col">Product Sold</th>
             <th scope="col">Product Description</th>
             <th scope="col">Product Price</th>
             <th scope="col">Product Image</th>
@@ -24,6 +27,9 @@
             <tr>
                 <td scope="row">@item.Id</td>
                 <td>@item.Name</td>
+                <td><a asp-action="AddQuantity" asp-controller="Product" asp-route-id="@item.Id">Add quantity</a></td>
+                <td>@item.Quantity</td>
+                <td>@item.Sold</td>
                 <td>@item.Description</td>
                 <td>@item.Price.ToString("#,##0 VND")</td>
                 <td><img src="~/media/products/@item.Image" width="70"/></td>

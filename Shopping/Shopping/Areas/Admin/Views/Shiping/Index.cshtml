@@ -1,0 +1,43 @@
+﻿@model ShipingModel
+@{
+    ViewData["title"] = "Create Shipping";
+}
+<h4>Create Brand</h4>
+<div class="col-md-9">
+    <form asp-action="Create" enctype="multipart/form-data">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label>City</label>
+            <select class="css_select" id="tinh" name="tinh" title="Chọn Tỉnh Thành">
+                <option value="0">City</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>District</label>
+            <select class="css_select" id="quan" name="quan" title="Chọn Quận Huyện">
+                <option value="0">District</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label>Awar</label>
+            <select class="css_select" id="phuong" name="phuong" title="Chọn Phường Xã">
+                <option value="0">Awar</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Fee</label>
+            <input asp-for="Price" class="form-control" />
+            <span asp-validation-for="Price" class="text-danger" />
+        </div>
+
+        <div class="form-group">
+            <button class="btn btn-primary">Create</button>
+        </div>
+    </form>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -75,6 +75,7 @@
 							<ul class="nav navbar-nav collapse navbar-collapse">
 								<li><a asp-controller="Home" class="active">Home</a></li>
 								<li><a asp-action="Index" asp-controller="Product">Product</a></li>
+								<li><a asp-action="Index" asp-controller="Shiping">Shiping</a></li>
 								<li><a asp-action="Index" asp-controller="Category">Category</a></li>
 								<li><a asp-action="Index" asp-controller="Brand">Brand</a></li>
 								<li><a asp-action="Index" asp-controller="Order">Order</a></li>
@@ -121,7 +122,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.js"></script>
 	<script src="https://cdn.datatables.net/buttons/3.2.3/js/buttons.html5.min.js"></script>
 	<script src="https://cdn.datatables.net/buttons/3.2.3/js/buttons.print.min.js"></script>
-
+	<script src="https://esgoo.net/scripts/jquery.js"></script>
 	<script>
 		$(function(){
 			var message = '@TempData["success"]';

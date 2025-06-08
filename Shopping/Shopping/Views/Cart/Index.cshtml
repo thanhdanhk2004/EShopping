@@ -38,7 +38,7 @@
 									<p>@item.Price.ToString("#,##0 VND")</p>
 								</td>
 								<td class="cart_quantity">
-									<a class="btn btn-default btn-sm" asp-controller="Cart" asp-action="Increare" asp-route-id="@item.ProductId"> + </a>
+									<a class="btn btn-default btn-sm" asp-controller="Cart" asp-action="increare" asp-route-id="@item.ProductId"> + </a>
 									<input class="cart_quantity_input" type="text" name="quantity" value="@item.Quantity" autocomplete="off" size="2">
 									<a class="btn btn-success btn-sm" asp-controller="Cart" asp-action="Decreare" asp-route-id="@item.ProductId"> - </a>
 									<a class="btn btn-danger btn-sm" asp-controller="Cart" asp-action="Remove" asp-route-id="@item.ProductId"> Remove </a>
@@ -80,4 +80,29 @@
 	</div>
 </section> <!--/#cart_items-->
 
+@section Scripts{
+	<script>
+		$(function(){
+			var message = '@TempData["success"]';
+			if(message != '')
+				swal.fire(message);
+		});
+	</script>
+}
+
+@* @section scripts{ *@
+@* 	<script> *@
+@* 		$(document).ready(function(){ *@
+@* 			$('.btn-increare').click(function(){ *@
+@* 				var id = $(this).data("product_id") *@
+
+@* 				$.ajax({ *@
+@* 					type:"Post", *@
+@* 					url: "@Url.Action("Increare","Cart")", *@
+@* 					data: {id: id} *@
+@* 				}) *@
+@* 			}) *@
+@* 		}) *@
+@* 	</script> *@
+@* } *@
 
