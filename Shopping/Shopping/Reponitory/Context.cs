@@ -19,5 +19,6 @@ namespace Shopping.Reponitory
         public virtual DbSet<ContactModel> Contacts { get; set; }
         public virtual DbSet<CompareModel> Compares { get; set; }
         public virtual DbSet<WishListModel> WishList { get; set; }
+        public virtual DbSet<ProductQuantityModel> ProductQuantity { get; set; }
     }
 }

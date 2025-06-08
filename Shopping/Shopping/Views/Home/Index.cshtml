@@ -95,4 +95,27 @@
 			})
 		})
 	</script>
+
+	<!--Add product compare-->
+	<script>
+		$(document).ready(function(){
+			$('.add-btn-compare').click(function(){
+				var id = $(this).data('product_id')
+
+				$.ajax({
+					type: "POST",
+					url: "@Url.Action("AddCompare", "Home")",
+					data: {id:id},
+
+					success: function(result){
+						if(result.success){
+							swal.fire("Add product to compare success")
+						}else{
+							swal.fire("Add product to compare fail")
+						}
+					}
+				})
+			})
+		})
+	</script>
 }

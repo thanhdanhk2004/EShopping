@@ -97,5 +97,26 @@ namespace Shopping.Controllers
                 return Ok(new { success = false, message = ex.Message });
             }
         }
+
+        [HttpPost]
+        public async Task<IActionResult> AddCompare(int id)
+        {
+            var user = await _userManager.GetUserAsync(User);
+            CompareModel compare = new CompareModel
+            {
+                ProductId = id,
+                UserId = user.Id,
+            };
+            _context.Compares.Add(compare);
+            try
+            {
+                await _context.SaveChangesAsync();
+                return Ok(new { success = true, message = "Add to wish list success" });
+            }
+            catch (Exception ex)
+            {
+                return Ok(new { success = false, message = ex.Message });
+            }
+        }
     }
 }
