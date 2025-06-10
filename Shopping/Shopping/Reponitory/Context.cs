@@ -21,5 +21,6 @@ namespace Shopping.Reponitory
         public virtual DbSet<WishListModel> WishList { get; set; }
         public virtual DbSet<ProductQuantityModel> ProductQuantity { get; set; }
         public virtual DbSet<ShipingModel> Shipings { get; set; }
+        public virtual DbSet<CouponModel> Coupons { get; set; }
     }
 }

@@ -18,10 +18,12 @@
             <h5>Filter price</h5>
             <form asp-action="index" asp-controller="Category">
                 <p>
-                    <label for="amount">Price range:</label>
+                    
                     <input type="text" id="amount" readonly="" style="border:0; color:#f6931f; font-weight:bold;">
                 </p>
                 <div id="slider-range"></div>
+                <button type="submit" name="filterprice" data-current_url="@current_url" class="btn btn-danger btn-filter-price">Filter</button>
+
             </form>
         </div>
 

@@ -13,7 +13,7 @@ namespace Shopping.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> index(string slug = "", string sort_by = "")
+        public async Task<IActionResult> index(string slug = "", string sort_by = "", string startprice="", string endprice="")
         {
             int id = _context.Categories.Where(c => c.Slug == slug).Select(c => c.Id).FirstOrDefault();
             if(id == 0)
@@ -28,10 +28,11 @@ namespace Shopping.Controllers
                     products = products.OrderByDescending(p => p.Price);
                 else if (sort_by == "price_oldest")
                     products = products.OrderBy(p => p.Id);
+                else if (startprice != "" && endprice != "")
+                    products = products.Where(p => p.Price >= decimal.Parse(startprice) && p.Price <= decimal.Parse(endprice));
                 else
                     products = products.OrderByDescending(p => p.Id);
             }
-
             return View(await products.ToListAsync());
         }
     }
