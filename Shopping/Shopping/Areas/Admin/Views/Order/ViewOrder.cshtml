@@ -34,6 +34,15 @@
             </tr>
         }
         <tr>
+            <td>Shipping Cost:</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>@ViewBag.ShippingCost.ToString("C")</td>
+            <td></td>
+        </tr>
+        <tr>
             <td>Total:</td>
             <td></td>
             <td></td>
@@ -46,7 +55,8 @@
                     <option value="0">Processed</option>
                 </select>
             </td>
-        </tr>    
+        </tr>  
+        
     </tbody>
 </table>
 @section Scripts {

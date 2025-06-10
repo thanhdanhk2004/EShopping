@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using Shopping.Areas.Admin.Reponsitory;
 using Shopping.Models;
 using Shopping.Models.ViewModels;
@@ -25,12 +26,22 @@ namespace Shopping.Controllers
                 return RedirectToAction("Login", "Account");
             }
             var odercode = Guid.NewGuid().ToString();
+            //Add shipping tu cookies
+            var shipping_price_cookies = Request.Cookies["shipping_price"];
+            decimal shipping_price = 0;
+            if (shipping_price_cookies != null)
+            {
+                var shipping_price_json = shipping_price_cookies;
+                shipping_price = JsonConvert.DeserializeObject<decimal>(shipping_price_json);
+            }
+
             var oder_item = new OrderModel
             {
                 Username = user_email,
                 OrderCode = odercode,
                 CreatedDate = DateTime.Now,
-                Status = 1
+                Status = 1,
+                PriceShipping = shipping_price,
             };
             _context.Orders.Add(oder_item);
             _context.SaveChanges();

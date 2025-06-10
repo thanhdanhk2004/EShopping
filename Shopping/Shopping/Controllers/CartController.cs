@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using Shopping.Models;
 using Shopping.Models.ViewModels;
 using Shopping.Reponitory;
@@ -15,11 +17,22 @@ namespace Shopping.Controllers
 
         public IActionResult Index()
         {
+            
             List<CartItemModel> items = HttpContext.Session.get_Json<List<CartItemModel>>("Cart")?? new List<CartItemModel>();
+            //Add shipping tu cookies
+            var shipping_price_cookies = Request.Cookies["shipping_price"];
+            decimal shipping_price = 0;
+            if(shipping_price_cookies != null)
+            {
+                var shipping_price_json = shipping_price_cookies;
+                shipping_price = JsonConvert.DeserializeObject<decimal>(shipping_price_json);
+            }
+
             CartItemViewModel cart_vm = new()
             {
                 CartItems = items,
                 GrandTotal = items.Sum(x => x.Quantity*x.Price),
+                PriceShipping = shipping_price,
             };
 
             return View(cart_vm);
@@ -118,6 +131,39 @@ namespace Shopping.Controllers
         public IActionResult Checkout()
         {
             return View("~/Views/Checkout/index.cshtml");
+        }
+
+
+        [HttpPost]
+        [Route("Cart/GetShipping")]
+        public async Task<IActionResult> GetShipping(string city, string district, string ward)
+        {
+            var shipping = await _context.Shipings.Where(s => s.City == city && s.District == district && s.Ward == ward).FirstOrDefaultAsync();
+            decimal shipping_price = 0;
+            if(shipping != null)
+            {
+                shipping_price = shipping.Price;
+            }
+            else
+            {
+                shipping_price = 5000;
+            }
+            var shipping_price_json = JsonConvert.SerializeObject(shipping_price);
+            try
+            {
+                var cookies_option = new CookieOptions
+                {
+                    HttpOnly = true,
+                    Expires = DateTime.Now.AddMinutes(30),
+                    Secure = true
+                };
+                Response.Cookies.Append("shipping_price", shipping_price_json, cookies_option);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+            return Json(new { shipping_price });
         }
     }
 }

@@ -23,6 +23,8 @@ namespace Shopping.Areas.Admin.Controllers
         public async Task<IActionResult> ViewOrder(string ordercode)
         {
             var order_details = await _context.OrderDetails.Include(o => o.Product).Where(o => o.OrderCode == ordercode).ToListAsync();
+            var shipping_cost = await _context.Orders.Where(o => o.OrderCode == ordercode).FirstOrDefaultAsync();
+            ViewBag.ShippingCost = shipping_cost.PriceShipping;
             return View(order_details);
         }
 

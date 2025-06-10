@@ -10,6 +10,7 @@
             <th scope="col">Order code</th>
             <th scope="col">Order username</th>
             <th scope="col">Order CreateDate</th>
+            <th scope="col">Order PriceShipping</th>
             <th scope="col">Order Status</th>
         </tr>
     </thead>
@@ -21,6 +22,7 @@
                 <td>@item.OrderCode</td>
                 <td>@item.Username</td>
                 <td>@item.CreatedDate</td>
+                <td>@item.PriceShipping.ToString("#,##0 VND")</td>
                 @if(item.Status == 1)
                 {
                     <td>New Order</td>
