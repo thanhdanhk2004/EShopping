@@ -3,6 +3,9 @@ using Microsoft.AspNetCore.Identity;
 using Shopping.Models;
 using Shopping.Reponitory;
 using Shopping.Models.ViewModels;
+using System.Security.Claims;
+using Microsoft.EntityFrameworkCore;
+using Shopping.Areas.Admin.Reponsitory;
 namespace Shopping.Controllers
 {
     public class AccountController : Controller
@@ -10,12 +13,13 @@ namespace Shopping.Controllers
         private UserManager<AppUserModel> _userManager;
         private SignInManager<AppUserModel> _signInManager;
         private Context _context;
-        
-        public AccountController(UserManager<AppUserModel> userManager, SignInManager<AppUserModel> signInManager, Context context)
+        private IEmailSender _emailSender;
+        public AccountController(UserManager<AppUserModel> userManager, SignInManager<AppUserModel> signInManager, Context context, IEmailSender emailSender)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _context = context;
+            _emailSender = emailSender;
         }
 
         public IActionResult Login(string url)
@@ -67,6 +71,84 @@ namespace Shopping.Controllers
 
             }
             return View(user);
+        }
+
+        //History order
+        [HttpGet]
+        public async Task<IActionResult> History()
+        {
+            var user_id = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var user_email = User.FindFirstValue(ClaimTypes.Email);
+            var orders = await _context.Orders.Where(o => o.Username == user_email).ToListAsync();
+            ViewBag.Email = user_email;
+            return View(orders);
+        }
+
+        [HttpGet]
+        [Route("Account/Cancel")]
+        public async Task<IActionResult> Cancel(string OrderCode)
+        {
+            var order = await _context.Orders.Where(o => o.OrderCode == OrderCode).FirstOrDefaultAsync();
+            if(order != null)
+            {
+                order.Status = 2;
+                _context.Orders.Update(order);
+                await _context.SaveChangesAsync();
+            }
+            TempData["success"] = "Cancel Order Success";
+            return RedirectToAction("History", "Account");
+        }
+
+        [HttpGet]
+        [Route("Account/NewPass")]
+        public async Task<IActionResult> NewPass(string email, string token)
+        {
+            var user = await _userManager.Users.Where(u => u.Email == email && u.Token == token).FirstOrDefaultAsync();
+            if(user != null)
+            {
+                ViewBag.Email = email;
+                ViewBag.Token = token;
+            }
+            else
+            {
+                TempData["error"] = "Email not found or token not right";
+                return RedirectToAction("ForgotPass", "Account");
+            }
+            return View();
+        }
+
+    
+        [Route("Account/ForgotPass")]
+        public async Task<IActionResult> ForgotPass()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [Route("Account/ForgotPass")]
+        public async Task<IActionResult> ForgotPass(AppUserModel user)
+        {
+            var user_email = await _userManager.Users.FirstOrDefaultAsync(u => u.Email == user.Email);
+            if(user_email == null)
+            {
+                TempData["error"] = "Email not found";
+                return RedirectToAction("ForgotPass", "Account");
+            }
+            else
+            {
+                string token = Guid.NewGuid().ToString();
+                user_email.Token = token;
+                _context.Users.Update(user_email);
+                await _context.SaveChangesAsync();
+                var receiver = "@gmail.com";
+                var subject = "Change password for user" ;
+                var message = "Click to link to change password" +
+                    "<a href='" + $"{Request.Scheme}://{Request.Host}/Account/NewPass?email=" + user_email.Email +
+                    "&token=" + user_email.Token + "'>";
+                await _emailSender.SendEmailAsync(receiver, subject, message);
+                TempData["success"] = "Please check email";
+            }
+            return RedirectToAction("ForgotPass", "Account");
         }
     }
 }

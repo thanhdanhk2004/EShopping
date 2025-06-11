@@ -10,5 +10,6 @@ namespace Shopping.Models
         public DateTime CreatedDate { get; set; }
         public int Status {  get; set; }
         public decimal PriceShipping {  get; set; }
+        public string CouponCode {  get; set; }
     }
 }

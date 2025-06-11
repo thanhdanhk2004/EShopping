@@ -49,12 +49,15 @@
             <td></td>
             <td></td>
             <td>@total.ToString("C")</td>
-            <td>
-                <select class="form control select-update-order">
-                    <option value="1">New Order</option>
-                    <option value="0">Processed</option>
-                </select>
-            </td>
+            @if(ViewBag.OrderStatus != 2)
+            {
+                <td>
+                    <select class="form control select-update-order">
+                        <option value="1">New Order</option>
+                        <option value="0">Processed</option>
+                    </select>
+                </td>
+            }
         </tr>  
         
     </tbody>

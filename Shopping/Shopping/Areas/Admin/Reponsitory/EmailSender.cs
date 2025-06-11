@@ -11,10 +11,10 @@ namespace Shopping.Areas.Admin.Reponsitory
             {
                 EnableSsl = true,
                 UseDefaultCredentials = false,
-                Credentials = new NetworkCredential("b@gmail.com", "") 
+                Credentials = new NetworkCredential("@gmail.com", "") 
             };
             return client.SendMailAsync(
-                new MailMessage(from: "b@gmail.com",
+                new MailMessage(from: "@gmail.com",
                                 to:email,
                                 subject,
                                 message));

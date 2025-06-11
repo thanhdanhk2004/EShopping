@@ -28,11 +28,14 @@ namespace Shopping.Controllers
                 shipping_price = JsonConvert.DeserializeObject<decimal>(shipping_price_json);
             }
 
+            //
+            var coupon_title = Request.Cookies["CouponTitle"];
             CartItemViewModel cart_vm = new()
             {
                 CartItems = items,
                 GrandTotal = items.Sum(x => x.Quantity*x.Price),
                 PriceShipping = shipping_price,
+                CouponTitle = coupon_title,
             };
 
             return View(cart_vm);
@@ -140,7 +143,7 @@ namespace Shopping.Controllers
         {
             var shipping = await _context.Shipings.Where(s => s.City == city && s.District == district && s.Ward == ward).FirstOrDefaultAsync();
             decimal shipping_price = 0;
-            if(shipping != null)
+            if (shipping != null)
             {
                 shipping_price = shipping.Price;
             }
@@ -164,6 +167,44 @@ namespace Shopping.Controllers
                 Console.WriteLine(ex.ToString());
             }
             return Json(new { shipping_price });
+        }
+
+        [HttpPost]
+        [Route("Cart/GetCoupon")]
+        public async Task<IActionResult> GetCoupon(string code)
+        {
+            var coupon = await _context.Coupons.Where(c => c.Name == code).FirstOrDefaultAsync();
+            string coupon_title = coupon.Name + " | " + coupon?.Description;
+
+            if(coupon_title != null)
+            {
+                TimeSpan time = coupon.DateExpired - DateTime.Now;
+                int day = time.Days;
+                if (day >= 0)
+                {
+                    try
+                    {
+                        var cookies_option = new CookieOptions
+                        {
+                            HttpOnly = true,
+                            Expires = DateTime.Now.AddMinutes(30),
+                            Secure = true,
+                            SameSite = SameSiteMode.Strict //Kiem tra tuong thich trinh duyet
+                        };
+                        Response.Cookies.Append("CouponTitle", coupon_title, cookies_option);
+                        return Ok(new { success = true, message = "Add coupon success" });
+                    }
+                    catch (Exception ex)
+                    {
+                        return Ok(new { success = false, message = "Add coupon fail" });
+                    }
+                }
+                else
+                {
+                    return Ok(new { success = false, message = "Coupon expired" });
+                }
+            }
+            return Ok(new { success = false, message = "Coupon not found" });
         }
     }
 }

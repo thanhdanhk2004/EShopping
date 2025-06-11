@@ -35,6 +35,7 @@ namespace Shopping.Controllers
                 shipping_price = JsonConvert.DeserializeObject<decimal>(shipping_price_json);
             }
 
+            var coupon_cookies = Request.Cookies["CouponTitle"];
             var oder_item = new OrderModel
             {
                 Username = user_email,
@@ -42,6 +43,7 @@ namespace Shopping.Controllers
                 CreatedDate = DateTime.Now,
                 Status = 1,
                 PriceShipping = shipping_price,
+                CouponCode = coupon_cookies,
             };
             _context.Orders.Add(oder_item);
             _context.SaveChanges();
@@ -77,7 +79,7 @@ namespace Shopping.Controllers
             //await _emailSender.SendEmailAsync(receiver, subject, message);
 
             TempData["success"] = "Add order success";
-            return RedirectToAction("index", "Cart");
+            return RedirectToAction("History", "Account");
         }
     }
 }

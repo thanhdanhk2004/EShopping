@@ -25,6 +25,8 @@ namespace Shopping.Areas.Admin.Controllers
             var order_details = await _context.OrderDetails.Include(o => o.Product).Where(o => o.OrderCode == ordercode).ToListAsync();
             var shipping_cost = await _context.Orders.Where(o => o.OrderCode == ordercode).FirstOrDefaultAsync();
             ViewBag.ShippingCost = shipping_cost.PriceShipping;
+            var order = await _context.Orders.Where(o => o.OrderCode == ordercode).FirstOrDefaultAsync();
+            ViewBag.OrderStatus = order.Status;
             return View(order_details);
         }
 

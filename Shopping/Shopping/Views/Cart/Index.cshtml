@@ -53,6 +53,14 @@
 						}
 						<tr>
 							<td >Grand Total: <p class="cart_total_price">@Model.GrandTotal.ToString("#,##0 VND")</p></td>
+							<td>
+								<form>
+									Coupon Code: <input class="form-control coupon-value" style="width: 150px; height: 30px"/>
+									<span class="text text-success">@Model.CouponTitle</span>
+									<input type="button" value="Apply" class="btn btn-sm btn-primary btn-apply-coupon"/>
+
+								</form>
+							</td>
 							<td colspan="3">Shipping Price: <p class="cart_total_price">@Model.PriceShipping.ToString("#,##0 VND")</p></td>
 
 							<td>
@@ -182,6 +190,30 @@
 					}
 				})
 			}
+		})
+	</script>
+
+	<!--Add coupon-->
+	<script>
+		$(document).ready(function(){
+			$('.btn-apply-coupon').click(function(){
+				var code = $('.coupon-value').val()
+				 $.ajax({
+					 type: "POST",
+					 url: "@Url.Action("GetCoupon", "Cart")",
+					 data: {code : code},
+					
+					 success: function(result){
+						 if(result.success){
+							 Swal.fire("Apply coupon success")
+							 
+							 location.reload()
+						 }else{
+							  Swal.fire("Apply coupon failure")
+						 }
+					 }
+				 })
+			})
 		})
 	</script>
 }
